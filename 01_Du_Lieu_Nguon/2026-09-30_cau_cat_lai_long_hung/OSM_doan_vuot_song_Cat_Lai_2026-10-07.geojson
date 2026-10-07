@@ -1,0 +1,30 @@
+{
+ "type": "FeatureCollection",
+ "_nguon": "Dẫn xuất từ OpenStreetMap ngày 2026-10-07: cắt way 1561336244 (Dự án Cầu Cát Lái) theo ranh mặt nước relation 13482660 (Sông Đồng Nai). © OpenStreetMap contributors, ODbL. Mức C, chỉ để MINH HỌA vị trí vượt sông. Không phải ranh giới cầu chính/cầu dẫn theo hồ sơ thiết kế, không dùng số đo này trong lời đọc.",
+ "features": [
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "CL_VUOT_SONG",
+    "mo_ta": "Đoạn tuyến Cát Lái nằm trên mặt nước sông Đồng Nai (theo OSM)",
+    "osm_way_ids": [
+     1561336244
+    ],
+    "osm_water_relation": 13482660
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      106.7879947,
+      10.7575237
+     ],
+     [
+      106.7904782,
+      10.7513442
+     ]
+    ]
+   }
+  }
+ ]
+}

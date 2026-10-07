@@ -1,0 +1,543 @@
+{
+  "_ghi_chu": "BẢN THỬ NGHIỆM. Hướng tuyến lấy từ OpenStreetMap (minh họa, chủ dự án đã duyệt theo người dùng 2026-10-06). Ghim tọa độ người dùng giữ trong geometry nhưng không hiển thị. Số liệu: NQ 07, 08, 21, 22/NQ-HĐND TP Đồng Nai; NQ 54, 55/NQ-HĐND tỉnh Đồng Nai; ngày khởi công theo Tuổi Trẻ 29/9/2026 (mức C). 2026-10-07: tách màu theo yêu cầu: nét liền = cầu/đoạn vượt sông, nét đứt = phần tuyến trên bờ. Đoạn vượt sông Cát Lái cắt theo mặt nước sông Đồng Nai trên OSM (chưa có ranh cầu chính/cầu dẫn theo hồ sơ).",
+  "meta": {
+    "date": "2026-09-30",
+    "slug": "cau_cat_lai_long_hung",
+    "output": "video_map3d_thu_nghiem.mp4",
+    "voice": "vi-VN-NamMinhNeural",
+    "rate": "+15%",
+    "object_type": "DIEM",
+    "palette": "kenh",
+    "bbox": [
+      106.66,
+      10.66,
+      106.99,
+      10.97
+    ],
+    "zoom": 15,
+    "brand": "Dữ Liệu BĐS",
+    "source_line": "Nguồn: NQ 54, 55/2025 • NQ 07, 08, 21, 22/2026 HĐND Đồng Nai • Tuổi Trẻ 29/9/2026 • mốc tương lai là dự kiến",
+    "map_credit": "Ảnh vệ tinh: Esri World Imagery • Hướng tuyến: © OpenStreetMap contributors (minh họa)",
+    "legend": [
+      {
+        "label": "Cầu / đoạn vượt sông",
+        "color": "red",
+        "shape": "line"
+      },
+      {
+        "label": "Phần tuyến trên bờ",
+        "color": "red",
+        "shape": "dashed"
+      }
+    ]
+  },
+  "geometry": {
+    "parts": [
+      {
+        "id": "cl",
+        "file": "../../../01_Du_Lieu_Nguon/2026-09-30_cau_cat_lai_long_hung/OSM_huong_tuyen_cau_Cat_Lai_Long_Hung_2026-10-06.geojson",
+        "feature": "CL_TUYEN",
+        "label": "TOÀN TUYẾN CÁT LÁI",
+        "label_at": 0.75,
+        "source": "OpenStreetMap (Overpass 2026-10-06, way 1561336244), minh họa, chủ dự án duyệt",
+        "line": "dashed"
+      },
+      {
+        "id": "cl_song",
+        "file": "../../../01_Du_Lieu_Nguon/2026-09-30_cau_cat_lai_long_hung/OSM_doan_vuot_song_Cat_Lai_2026-10-07.geojson",
+        "feature": "CL_VUOT_SONG",
+        "label": "VỊ TRÍ VƯỢT SÔNG",
+        "label_at": 0.0,
+        "source": "OpenStreetMap (way 1561336244 cắt theo mặt nước relation 13482660, 2026-10-07), minh họa"
+      },
+      {
+        "id": "lh_hcm",
+        "file": "../../../01_Du_Lieu_Nguon/2026-09-30_cau_cat_lai_long_hung/OSM_huong_tuyen_cau_Cat_Lai_Long_Hung_2026-10-06.geojson",
+        "feature": "LH_PHIA_HCM",
+        "label": "PHÍA TP.HCM",
+        "label_at": 0.4,
+        "source": "OpenStreetMap (Overpass 2026-10-06, way 1565182952/54/50), minh họa",
+        "line": "dashed"
+      },
+      {
+        "id": "lh_cau",
+        "file": "../../../01_Du_Lieu_Nguon/2026-09-30_cau_cat_lai_long_hung/OSM_huong_tuyen_cau_Cat_Lai_Long_Hung_2026-10-06.geojson",
+        "feature": "LH_CAU",
+        "label": "CẦU LONG HƯNG",
+        "label_at": 0.5,
+        "source": "OpenStreetMap (Overpass 2026-10-06, way 1565182943), minh họa"
+      },
+      {
+        "id": "lh_dn",
+        "file": "../../../01_Du_Lieu_Nguon/2026-09-30_cau_cat_lai_long_hung/OSM_huong_tuyen_cau_Cat_Lai_Long_Hung_2026-10-06.geojson",
+        "feature": "LH_PHIA_DONG_NAI",
+        "label": "PHÍA ĐỒNG NAI",
+        "label_at": 0.55,
+        "source": "OpenStreetMap (Overpass 2026-10-06, way 1565182948), minh họa",
+        "line": "dashed"
+      }
+    ],
+    "pins": [
+      {
+        "id": "cl",
+        "label": "Khu vực cầu Cát Lái",
+        "sub": "phường Cát Lái ↔ xã Đại Phước",
+        "coord": [
+          106.7865,
+          10.7638
+        ],
+        "label_side": "right",
+        "coord_source": "người dùng cung cấp 2026-10-06"
+      },
+      {
+        "id": "lh",
+        "label": "Khu vực cầu Long Hưng",
+        "sub": "phường Long Phước ↔ xã An Phước",
+        "coord": [
+          106.8615,
+          10.8262
+        ],
+        "label_side": "left",
+        "coord_source": "người dùng cung cấp 2026-10-06"
+      }
+    ]
+  },
+  "scenes": [
+    {
+      "id": "s1_hook",
+      "camera": {
+        "target": "fit:cl,lh_hcm,lh_cau,lh_dn",
+        "pitch": 38,
+        "bearing": -10,
+        "rotate": 3,
+        "offset_px": [
+          0,
+          300
+        ]
+      },
+      "pins": [],
+      "overlays": [
+        {
+          "type": "title",
+          "y": 150,
+          "kicker": "29/9/2026 • THEO BÁO TUỔI TRẺ",
+          "lines": [
+            "KHỞI CÔNG",
+            "PHẦN NÀO?"
+          ],
+          "sub": "Cầu Cát Lái & cầu Long Hưng"
+        }
+      ],
+      "lines": [
+        {
+          "sub": "Theo báo Tuổi Trẻ, ngày 29/9, cầu Cát Lái và cầu Long Hưng đã khởi công.",
+          "tts": "Theo báo Tuổi Trẻ, ngày hai mươi chín tháng chín, cầu Cát Lái và cầu Long Hưng đã khởi công.",
+          "fact": "Tuổi Trẻ 29/9/2026 (C)"
+        },
+        {
+          "sub": "Nhưng mỗi cây cầu thật ra gồm ba phần, do hai thành phố cùng làm.",
+          "tts": "Nhưng mỗi cây cầu thật ra gồm ba phần, do hai thành phố cùng làm.",
+          "fact": "NQ 21, 22/NQ-HĐND 09/7/2026 (A)"
+        },
+        {
+          "sub": "Phần nào đã khởi công? Mình đi qua từng cầu nhé.",
+          "tts": "Phần nào đã khởi công? Mình đi qua từng cầu nhé."
+        }
+      ],
+      "parts": [
+        "cl",
+        "cl_song",
+        "lh_hcm",
+        "lh_cau",
+        "lh_dn"
+      ],
+      "draw": {
+        "parts": [
+          "cl",
+          "cl_song",
+          "lh_hcm",
+          "lh_cau",
+          "lh_dn"
+        ],
+        "at_line": 0,
+        "duration_s": 3.5
+      },
+      "route_labels": false
+    },
+    {
+      "id": "s3_cat_lai",
+      "camera": {
+        "target": "part:cl",
+        "m": 1.9,
+        "pitch": 46,
+        "bearing": 10,
+        "ease_s": 3.0,
+        "offset_px": [
+          0,
+          -200
+        ]
+      },
+      "pins": [],
+      "card": {
+        "badge": "1/2",
+        "accent": "red",
+        "kicker": "CẦU CÁT LÁI • 11,642 KM",
+        "title": "Cát Lái ↔ Đại Phước",
+        "subtitle": "phường Cát Lái (TP.HCM) ↔ xã Đại Phước (TP Đồng Nai)",
+        "chips": [
+          {
+            "text": "~24.004 tỷ",
+            "style": "neutral"
+          },
+          {
+            "text": "XÂY DỰNG 2026–2029 (DỰ KIẾN)",
+            "style": "status"
+          }
+        ]
+      },
+      "overlays": [
+        {
+          "type": "parts",
+          "title": "3 PHẦN CỦA DỰ ÁN",
+          "items": [
+            {
+              "tag": "CẦU CHÍNH + CẦU DẪN • HỢP ĐỒNG BT",
+              "title": "~14.927 tỷ • đã khởi công",
+              "sub": "Dự án thành phần 2 (NQ 08)",
+              "style": "ok",
+              "at_line": 1
+            },
+            {
+              "tag": "PHÍA ĐỒNG NAI • NGÂN SÁCH ĐỒNG NAI",
+              "title": "~9.077 tỷ • đường kết nối + bồi thường",
+              "sub": "Dự án thành phần 1 (NQ 08)",
+              "style": "warn",
+              "at_line": 2
+            },
+            {
+              "tag": "PHÍA TP.HCM • VỐN TP.HCM",
+              "title": "Mở rộng đường Nguyễn Thị Định",
+              "sub": "Dự án riêng (NQ 21)",
+              "style": "neutral",
+              "at_line": 3
+            }
+          ]
+        }
+      ],
+      "lines": [
+        {
+          "sub": "Cầu Cát Lái dài hơn 11,6 km, nối phường Cát Lái với xã Đại Phước.",
+          "tts": "Cầu Cát Lái dài hơn mười một phẩy sáu ki-lô-mét, nối phường Cát Lái với xã Đại Phước.",
+          "fact": "NQ 08, NQ 21/NQ-HĐND (A)"
+        },
+        {
+          "sub": "Phần khởi công là cầu chính và cầu dẫn, khoảng 14.927 tỷ, theo hợp đồng BT.",
+          "tts": "Phần khởi công là cầu chính và cầu dẫn, khoảng mười bốn nghìn chín trăm hai mươi bảy tỷ đồng, theo hợp đồng bê-tê.",
+          "fact": "NQ 08 (A); khởi công: Tuổi Trẻ (C)"
+        },
+        {
+          "sub": "Phía Đồng Nai, đường kết nối và bồi thường là dự án thành phần 1, khoảng 9.077 tỷ.",
+          "tts": "Phía Đồng Nai, đường kết nối và bồi thường là dự án thành phần một, khoảng chín nghìn không trăm bảy mươi bảy tỷ đồng.",
+          "fact": "NQ 08/NQ-HĐND (A)"
+        },
+        {
+          "sub": "Còn mở rộng đường Nguyễn Thị Định phía TP.HCM là dự án riêng, vốn TP.HCM.",
+          "tts": "Còn mở rộng đường Nguyễn Thị Định phía Thành phố Hồ Chí Minh là dự án riêng, dùng vốn Thành phố Hồ Chí Minh.",
+          "fact": "NQ 21/NQ-HĐND (A)"
+        }
+      ],
+      "parts": [
+        "cl",
+        "cl_song",
+        "lh_hcm",
+        "lh_cau",
+        "lh_dn"
+      ],
+      "highlight": [
+        "cl",
+        "cl_song"
+      ],
+      "vehicle": {
+        "part": "cl",
+        "at_line": 0,
+        "duration_s": 9.0
+      }
+    },
+    {
+      "id": "s4_long_hung",
+      "camera": {
+        "target": "part:lh_cau",
+        "m": 1.55,
+        "pitch": 48,
+        "bearing": -6,
+        "ease_s": 3.0,
+        "offset_px": [
+          0,
+          -260
+        ]
+      },
+      "pins": [],
+      "card": {
+        "badge": "2/2",
+        "accent": "red",
+        "kicker": "CẦU LONG HƯNG (CẦU ĐỒNG NAI 2) • ~9,8 KM",
+        "title": "Long Phước ↔ An Phước",
+        "subtitle": "phường Long Phước (TP.HCM) ↔ xã An Phước, phường Tam Phước",
+        "chips": [
+          {
+            "text": "~12.748 tỷ",
+            "style": "neutral"
+          },
+          {
+            "text": "XÂY DỰNG 2026–2029 (DỰ KIẾN)",
+            "style": "status"
+          }
+        ]
+      },
+      "overlays": [
+        {
+          "type": "parts",
+          "title": "3 PHẦN CỦA DỰ ÁN",
+          "items": [
+            {
+              "tag": "CẦU CHÍNH + CẦU DẪN • HỢP ĐỒNG BT",
+              "title": "~8.458 tỷ • đã khởi công",
+              "sub": "Dự án thành phần 2 (NQ 07)",
+              "style": "ok",
+              "at_line": 1
+            },
+            {
+              "tag": "PHÍA ĐỒNG NAI • ĐẦU TƯ CÔNG",
+              "title": "~4.290 tỷ • đường nối + bồi thường",
+              "sub": "Dự án thành phần 1 (NQ 07)",
+              "style": "warn",
+              "at_line": 2
+            },
+            {
+              "tag": "PHÍA TP.HCM • VỐN TP.HCM",
+              "title": "Đường nối từ nút giao Gò Công",
+              "sub": "Dự án riêng (NQ 22)",
+              "style": "neutral",
+              "at_line": 3
+            }
+          ]
+        }
+      ],
+      "lines": [
+        {
+          "sub": "Cầu Long Hưng dài khoảng 9,8 km, nối phường Long Phước với xã An Phước.",
+          "tts": "Cầu Long Hưng dài khoảng chín phẩy tám ki-lô-mét, nối phường Long Phước với xã An Phước.",
+          "fact": "NQ 07, NQ 22/NQ-HĐND (A)"
+        },
+        {
+          "sub": "Cầu chính và cầu dẫn khoảng 8.458 tỷ, cũng theo hợp đồng BT.",
+          "tts": "Cầu chính và cầu dẫn khoảng tám nghìn bốn trăm năm mươi tám tỷ đồng, cũng theo hợp đồng bê-tê.",
+          "fact": "NQ 07/NQ-HĐND (A)"
+        },
+        {
+          "sub": "Phía Đồng Nai, dự án thành phần 1 khoảng 4.290 tỷ, vốn đầu tư công.",
+          "tts": "Phía Đồng Nai, dự án thành phần một khoảng bốn nghìn hai trăm chín mươi tỷ đồng, vốn đầu tư công.",
+          "fact": "NQ 07/NQ-HĐND (A)"
+        },
+        {
+          "sub": "Phía TP.HCM, đường nối từ nút giao Gò Công là dự án riêng của TP.HCM.",
+          "tts": "Phía Thành phố Hồ Chí Minh, đường nối từ nút giao Gò Công là dự án riêng của Thành phố Hồ Chí Minh.",
+          "fact": "NQ 22/NQ-HĐND (A)"
+        }
+      ],
+      "parts": [
+        "cl",
+        "cl_song",
+        "lh_hcm",
+        "lh_cau",
+        "lh_dn"
+      ],
+      "highlight": [
+        "lh_hcm",
+        "lh_cau",
+        "lh_dn"
+      ],
+      "vehicle": {
+        "part": "lh_cau",
+        "at_line": 0,
+        "duration_s": 6.0
+      }
+    },
+    {
+      "id": "s5_boi_thuong",
+      "camera": {
+        "target": "fit:cl,lh_hcm,lh_cau,lh_dn",
+        "pitch": 44,
+        "bearing": 6,
+        "ease_s": 3.0,
+        "offset_px": [
+          0,
+          -500
+        ]
+      },
+      "pins": [],
+      "overlays": [
+        {
+          "type": "compare",
+          "y": 130,
+          "title": "CHI PHÍ BỒI THƯỜNG, HỖ TRỢ, TÁI ĐỊNH CƯ",
+          "items": [
+            {
+              "label": "Cầu Cát Lái",
+              "from": "2.985 tỷ",
+              "to": "4.465 tỷ",
+              "note": "NQ 54 → NQ 08",
+              "at_line": 0
+            },
+            {
+              "label": "Cầu Long Hưng",
+              "from": "776 tỷ",
+              "to": "1.516 tỷ",
+              "note": "NQ 55 → NQ 07",
+              "at_line": 0
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "y": 500,
+          "text": "Nghị quyết yêu cầu đẩy nhanh bồi thường, giải phóng mặt bằng",
+          "at_line": 1
+        }
+      ],
+      "lines": [
+        {
+          "sub": "Điều cần theo dõi: chi phí bồi thường Cát Lái tăng từ 2.985 lên 4.465 tỷ, Long Hưng từ 776 lên 1.516 tỷ.",
+          "tts": "Điều cần theo dõi: chi phí bồi thường cầu Cát Lái tăng từ hai nghìn chín trăm tám mươi lăm lên bốn nghìn bốn trăm sáu mươi lăm tỷ đồng, cầu Long Hưng từ bảy trăm bảy mươi sáu lên một nghìn năm trăm mười sáu tỷ đồng.",
+          "fact": "NQ 08, NQ 07 bảng chi phí (A)"
+        },
+        {
+          "sub": "Các nghị quyết đều yêu cầu đẩy nhanh bồi thường, giải phóng mặt bằng.",
+          "tts": "Các nghị quyết đều yêu cầu đẩy nhanh bồi thường, giải phóng mặt bằng.",
+          "fact": "NQ 07, 08 Điều 2 (A)"
+        }
+      ],
+      "parts": [
+        "cl",
+        "cl_song",
+        "lh_hcm",
+        "lh_cau",
+        "lh_dn"
+      ],
+      "route_labels": false
+    },
+    {
+      "id": "s6_moc",
+      "camera": {
+        "target": "fit:cl,lh_hcm,lh_cau,lh_dn",
+        "pitch": 40,
+        "bearing": 6,
+        "ease_s": 2.0,
+        "offset_px": [
+          0,
+          -700
+        ]
+      },
+      "pins": [],
+      "overlays": [
+        {
+          "type": "timeline",
+          "y": 130,
+          "title": "CÁC MỐC",
+          "items": [
+            {
+              "date": "10/12/2025",
+              "text": "Duyệt chủ trương đầu tư PPP (NQ 54, 55)",
+              "color": "white",
+              "at_line": 0
+            },
+            {
+              "date": "11/6/2026",
+              "text": "Điều chỉnh, tăng vốn (NQ 07, 08)",
+              "color": "white",
+              "at_line": 0
+            },
+            {
+              "date": "09/7/2026",
+              "text": "Tách phần phía TP.HCM thành dự án riêng (NQ 21, 22)",
+              "color": "white",
+              "at_line": 0
+            },
+            {
+              "date": "29/9/2026",
+              "text": "Khởi công cầu chính (theo báo Tuổi Trẻ)",
+              "color": "green",
+              "at_line": 0
+            },
+            {
+              "date": "2026 – 2029",
+              "text": "Thời gian xây dựng theo nghị quyết (DỰ KIẾN)",
+              "color": "yellow",
+              "at_line": 0
+            }
+          ]
+        }
+      ],
+      "lines": [
+        {
+          "sub": "Qua ba đợt nghị quyết, thời gian xây dựng là 2026 – 2029, đây là mốc dự kiến.",
+          "tts": "Qua ba đợt nghị quyết, thời gian xây dựng là từ năm hai nghìn không trăm hai mươi sáu đến năm hai nghìn không trăm hai mươi chín, đây là mốc dự kiến.",
+          "fact": "NQ 54, 55; 07, 08; 21, 22 (A)"
+        }
+      ],
+      "parts": [
+        "cl",
+        "cl_song",
+        "lh_hcm",
+        "lh_cau",
+        "lh_dn"
+      ],
+      "route_labels": false
+    },
+    {
+      "id": "s7_cta",
+      "camera": {
+        "target": "fit:cl,lh_hcm,lh_cau,lh_dn",
+        "pitch": 36,
+        "bearing": 4,
+        "ease_s": 2.0,
+        "offset_px": [
+          0,
+          -450
+        ],
+        "rotate": 2
+      },
+      "pins": [],
+      "overlays": [
+        {
+          "type": "cta",
+          "y": 170,
+          "question": "BẠN CHỜ CẦU NÀO HƠN?",
+          "sub": "Bình luận cho mình biết nhé!",
+          "follow": {
+            "text": "Theo dõi Dữ Liệu BĐS",
+            "at_line": 0
+          }
+        }
+      ],
+      "lines": [
+        {
+          "sub": "Bạn chờ cây cầu nào hơn? Bình luận và theo dõi kênh để cập nhật nhé.",
+          "tts": "Bạn chờ cây cầu nào hơn? Bình luận và theo dõi kênh để cập nhật nhé."
+        },
+        {
+          "sub": "Trước khi giao dịch, hãy kiểm tra quy hoạch tại Ủy ban nhân dân xã, phường.",
+          "tts": "Trước khi giao dịch, hãy kiểm tra quy hoạch tại Ủy ban nhân dân xã, phường."
+        }
+      ],
+      "parts": [
+        "cl",
+        "cl_song",
+        "lh_hcm",
+        "lh_cau",
+        "lh_dn"
+      ],
+      "route_labels": false
+    }
+  ]
+}

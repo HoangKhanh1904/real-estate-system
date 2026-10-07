@@ -57,7 +57,7 @@ def run_radar_flow(date_str: str = None):
     if send_telegram_message(full_msg):
         print("\n[OK] Đã gửi thông báo đến nhóm Telegram thành công!")
 
-def run_production_flow(url: str, date_str: str = None):
+def run_production_flow(url: str, date_str: str = None, rate: str = None):
     """Quy trình 2: Sản xuất trọn bộ nội dung từ 1 link bài báo."""
     if not date_str:
         date_str = datetime.now().strftime("%Y-%m-%d")
@@ -91,7 +91,7 @@ def run_production_flow(url: str, date_str: str = None):
 
     # 3. Xuất file âm thanh TTS
     print("\n[BƯỚC 3/3] Tự động chuyển lời đọc thành âm thanh MP3...")
-    audio_path = generate_audio_for_date(date_str)
+    audio_path = generate_audio_for_date(date_str, rate=rate)
     if audio_path:
         print(f"✓ Audio đã hoàn thành: {audio_path}")
 
@@ -148,6 +148,8 @@ def main():
     parser.add_argument("--url", type=str, help="Link bài báo để sản xuất trọn bộ nội dung")
     parser.add_argument("--date", type=str, default=datetime.now().strftime("%Y-%m-%d"), help="Ngày xử lý (YYYY-MM-DD)")
     parser.add_argument("--tts", action="store_true", help="Chỉ chạy riêng khâu tạo file audio TTS")
+    parser.add_argument("--video", action="store_true", help="Dựng video ngắn hoàn chỉnh 9:16 từ audio và ảnh")
+    parser.add_argument("--rate", type=str, default=None, help="Tùy chỉnh tốc độ đọc TTS (VD: +10%%, +15%%, +20%%)")
     parser.add_argument("--scheduler", action="store_true", help="Chạy tiến trình nền tự động quét tin lúc 06:30 sáng")
     parser.add_argument("--time", type=str, default="06:30", help="Giờ hẹn chạy cho --scheduler (VD: 06:30)")
 
@@ -158,9 +160,12 @@ def main():
     elif args.radar:
         run_radar_flow(args.date)
     elif args.url:
-        run_production_flow(args.url, args.date)
+        run_production_flow(args.url, args.date, rate=args.rate)
     elif args.tts:
-        generate_audio_for_date(args.date)
+        generate_audio_for_date(args.date, rate=args.rate)
+    elif args.video:
+        from pipeline.video_maker import build_cat_lai_video
+        build_cat_lai_video(args.date)
     else:
         parser.print_help()
 

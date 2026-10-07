@@ -1,6 +1,6 @@
 @echo off
 chcp 65001 >nul
-cd /d "C:\BĐS"
+cd /d "%~dp0\.."
 title BDS - Radar Tin Sang Tu Dong
 echo ========================================================
 echo   DANG QUET TIN NONG BDS & QUY HOACH MOI SANG...

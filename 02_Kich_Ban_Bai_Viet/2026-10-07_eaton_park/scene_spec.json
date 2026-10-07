@@ -1,0 +1,82 @@
+{
+  "meta": {
+    "date": "2026-10-07",
+    "slug": "eaton_park",
+    "output": "video_map3d.mp4",
+    "voice": "vi-VN-NamMinhNeural",
+    "rate": "+15%",
+    "object_type": "KHU",
+    "palette": "kenh",
+    "bbox": null,
+    "zoom": 16,
+    "brand": "Dữ Liệu BĐS",
+    "source_line": "Nguồn: Gamuda Land",
+    "map_credit": "Ảnh vệ tinh: Esri",
+    "legend": [{"label": "Vị trí Eaton Park", "color": "yellow", "shape": "dot"}]
+  },
+  "geometry": {
+    "parts": [],
+    "pins": [
+      {
+        "id": "m1",
+        "label": "Eaton Park",
+        "sub": "Gamuda Land",
+        "coord": [106.7561, 10.7946],
+        "label_side": "right",
+        "coord_source": "Google Maps"
+      }
+    ]
+  },
+  "scenes": [
+    {
+      "id": "s1",
+      "camera": {
+        "target": "pin:m1",
+        "m": 3.0,
+        "pitch": 45,
+        "bearing": 0,
+        "ease_s": 2.5,
+        "rotate": 10,
+        "drift": 0.06
+      },
+      "pins": ["m1"],
+      "card": {
+        "badge": "EATON",
+        "accent": "yellow",
+        "title": "EATON PARK",
+        "subtitle": "Đại lộ Mai Chí Thọ, Khu Đông TP.HCM",
+        "chips": [{"text": "5,5 tỷ/căn", "style": "warn"}, {"text": "Gamuda Land", "style": "status"}]
+      },
+      "lines": [
+        {"sub": "5,5 tỷ cho một căn hộ tại Bình Trưng, mức giá này liệu có xứng đáng?", "tts": "năm phẩy năm tỷ cho một căn hộ tại phường Bình Trưng, mức giá này liệu có xứng đáng?", "fact": "6"},
+        {"sub": "Hôm nay cùng soi dự án Eaton Park của Gamuda Land", "tts": "Chào anh em, hôm nay chúng ta cùng soi dự án i tơn pác của ga mu đa len ngay mặt tiền khu Đông.", "fact": "1"},
+        {"sub": "Dự án đa dạng loại hình và diện tích", "tts": "Với quỹ đất đắc địa, dự án cung cấp đa dạng từ căn hộ, pen hao đến sốp hao, diện tích trải dài từ năm mươi phẩy bảy đến hơn bốn trăm linh sáu mét vuông.", "fact": "4"}
+      ]
+    },
+    {
+      "id": "s2",
+      "camera": {
+        "target": "pin:m1",
+        "m": 1.5,
+        "pitch": 55,
+        "bearing": 45,
+        "ease_s": 2.5,
+        "rotate": 5,
+        "drift": 0.05
+      },
+      "pins": ["m1"],
+      "card": {
+        "badge": "EATON",
+        "accent": "yellow",
+        "title": "THIẾT KẾ & TIỆN ÍCH",
+        "subtitle": "Hòa điệu thiên nhiên",
+        "chips": [{"text": "Pet-friendly", "style": "ok"}, {"text": "Hạng sang", "style": "danger"}]
+      },
+      "lines": [
+        {"sub": "Thiết kế hòa điệu thiên nhiên và thân thiện với thú cưng", "tts": "Mức giá khởi điểm từ năm tỷ rưỡi. Điểm ăn tiền lớn nhất chính là thiết kế hòa điệu thiên nhiên và đặc biệt, thân thiện với thú cưng.", "fact": "6"},
+        {"sub": "Kỳ vọng thiết lập chuẩn mực mới cho BĐS hạng sang", "tts": "Đây là dự án đang được kỳ vọng thiết lập chuẩn mực mới cho bất động sản hạng sang. Tuy nhiên, anh em nên trực tiếp xuống tiền hay chờ thêm?", "fact": "7"},
+        {"sub": "Theo dõi kênh để đón xem video phân tích", "tts": "Theo dõi kênh để đón xem video phân tích sâu hơn về pháp lý và quy hoạch khu vực này nhé!", "fact": "-"}
+      ]
+    }
+  ]
+}

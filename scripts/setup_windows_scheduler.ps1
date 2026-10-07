@@ -2,8 +2,8 @@
 # Script dang ky Windows Task Scheduler tu dong chay Radar luc 06:30 sang moi ngay
 # ==============================================================================
 
-$taskName = "BDS_Radar_Morning_6h30"
-$actionScript = "C:\BĐS\scripts\run_morning_radar.bat"
+$projectDir = (Get-Item $PSScriptRoot).Parent.FullName
+$actionScript = Join-Path $PSScriptRoot "run_morning_radar.bat"
 
 # Kiem tra xem file bat co ton tai khong
 if (-not (Test-Path $actionScript)) {
@@ -12,7 +12,7 @@ if (-not (Test-Path $actionScript)) {
 }
 
 # Hanh dong can thuc hien
-$action = New-ScheduledTaskAction -Execute "cmd.exe" -Argument "/c `"$actionScript`"" -WorkingDirectory "C:\BĐS"
+$action = New-ScheduledTaskAction -Execute "cmd.exe" -Argument "/c `"$actionScript`"" -WorkingDirectory "$projectDir"
 
 # Thoi gian kich hoat: 06:30 sang moi ngay
 $trigger = New-ScheduledTaskTrigger -Daily -At "06:30AM"

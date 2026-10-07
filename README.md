@@ -39,7 +39,9 @@ sequenceDiagram
 | :--- | :--- | :--- | :--- |
 | **06:30** | **Máy** (hoặc Bạn A) | Quét tin nóng từ 5 báo uy tín, lọc từ khóa, chấm điểm Hot | Tự động chạy qua Task Scheduler, hoặc bấm đúp chuột vào: <br>`C:\BĐS\scripts\run_morning_radar.bat`<br>*(hoặc lệnh: `python -m pipeline.run_pipeline --radar`)* |
 | **09:00** | **Chủ kênh / Bạn A** | Chốt 1 bài báo -> Kích hoạt máy sinh trọn bộ kịch bản & file âm thanh | `python -m pipeline.run_pipeline --url "<link_bai_bao>"` |
+| **Tùy chỉnh** | **Bạn B** | Đổi tốc độ đọc nhanh hơn (VD: +15%, +20%) | `python -m pipeline.run_pipeline --url "<link>" --rate "+20%"`<br>*(hoặc chỉnh riêng: `python -m pipeline.run_pipeline --tts --rate "+20%" --date "YYYY-MM-DD"`)* |
 | **Khi cần** | **Bạn A / Bạn B** | Sau khi sửa lại câu từ trong `04_Loi_Doc_TTS.txt`, muốn xuất lại file MP3 | `python -m pipeline.run_pipeline --tts` |
+| **Dựng video** | **Bạn B** | Tự động xuất video ngắn 9:16 (TikTok/Reels) từ ảnh và audio | `python -m pipeline.run_pipeline --video --date "2026-09-30"` |
 | **Khác** | **Bất kỳ ai** | Chạy lại sản xuất cho một ngày cụ thể trong quá khứ | `python -m pipeline.run_pipeline --url "<link>" --date "YYYY-MM-DD"` |
 
 ---
@@ -153,3 +155,29 @@ C:\BĐS\
     └── 2026-10-01\
         └── voice_doc_ai.mp3             <- File âm thanh đọc kịch bản hoàn chỉnh
 ```
+
+---
+
+## PHẦN 4: TÙY CHỈNH TỐC ĐỘ GIỌNG ĐỌC AI (TTS SPEED)
+
+Theo quy chuẩn [CLAUDE.md](CLAUDE.md), video ngắn TikTok/Reels cần nhịp đọc dứt khoát (**~2.7 từ/giây**) để giữ chân người xem. Bạn có 2 cách điều chỉnh tốc độ:
+
+### Cách 1: Chỉnh mặc định cho toàn bộ dự án
+Mở file [pipeline/config.py](pipeline/config.py) và sửa biến `TTS_RATE`:
+```python
+TTS_RATE = "+15%"  # Mặc định khuyên dùng cho TikTok / Reels
+```
+*Gợi ý các mức tốc độ:*
+- `+0%`: Đọc bình thường (~2.2 từ/giây, hợp video phân tích dài trên YouTube).
+- `+10%` đến `+15%`: Tốc độ chuẩn video ngắn, dứt khoát, nghe rõ chữ (~2.5 - 2.7 từ/giây).
+- `+20%`: Đọc nhanh, dồn dập (dành cho tin tức vắn 45 giây).
+
+### Cách 2: Chỉnh nhanh bằng cờ `--rate` khi chạy lệnh
+```powershell
+# Chạy cả gói nội dung với tốc độ +20%
+python -m pipeline.run_pipeline --url "https://..." --rate "+20%"
+
+# Hoặc chỉ xuất lại riêng file audio ngày hôm nay với tốc độ +15%
+python -m pipeline.run_pipeline --tts --rate "+15%"
+```
+

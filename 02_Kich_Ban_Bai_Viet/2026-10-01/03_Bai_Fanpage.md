@@ -1,43 +1,36 @@
-# CHÍNH THỨC THÔNG XE NÚT GIAO CUỐI CÙNG TRÊN CAO TỐC ĐÀ NẴNG - QUẢNG NGÃI
+# CHÍNH THỨC THÔNG XE NÚT GIAO TRÌ BÌNH - DUNG QUẤT
 
-📅 *Ngày đăng: 01/10/2026*
+Từ 0h ngày 1-10-2026, nút giao Trì Bình - Dung Quất - hạng mục cuối cùng trên tuyến cao tốc Đà Nẵng - Quảng Ngãi - đã chính thức đi vào khai thác. Sự kiện này đánh dấu việc hoàn thiện toàn bộ hệ thống kết nối trên tuyến cao tốc trọng điểm miền Trung sau nhiều năm chờ đợi.
 
-Sau nhiều năm chờ đợi, mảnh ghép cuối cùng trên tuyến cao tốc Đà Nẵng - Quảng Ngãi đã chính thức hoàn thành. Đúng **0h00 ngày 1-10-2026**, nút giao **Trì Bình - Dung Quất** đã chính thức thông xe và đưa vào khai thác, mở ra một hành lang kết nối giao thương hoàn chỉnh cho khu vực kinh tế trọng điểm miền Trung.
+Dưới đây là các thông tin trọng tâm về việc vận hành nút giao này:
 
---- 
+### 📍 KẾT NỐI HẠ TẦNG TRỌNG ĐIỂM
+* **Cửa ngõ mới:** Nút giao kết nối trực tiếp cao tốc Đà Nẵng - Quảng Ngãi với tuyến Trì Bình - cảng Dung Quất và Quốc lộ 1.
+* **Rút ngắn khoảng cách:** Tạo lối ra vào thuận tiện, giảm tải áp lực giao thông cho Quốc lộ 1 và rút ngắn đáng kể thời gian di chuyển từ các tỉnh lân cận vào Khu kinh tế Dung Quất.
 
-### 📌 THÔNG TIN CHI TIẾT VỀ NÚT GIAO TRÌ BÌNH - DUNG QUẤT
+### 💰 QUY MÔ VÀ LỊCH SỬ DỰ ÁN
+* **Tổng vốn đầu tư:** Khoảng 100 tỷ đồng (trong đó chi phí xây lắp khoảng 50 tỷ đồng).
+* **Quá trình triển khai:** Khởi công cùng thời điểm với tuyến cao tốc chính (khai thác từ năm 2018) nhưng bị đình trệ do vướng mắc kỹ thuật và thủ tục. Dự án được tái khởi động từ cuối tháng 5-2025 và hoàn thành vào cuối tháng 9-2026.
 
-* **Vị trí kết nối:** Điểm giao giữa Cao tốc Đà Nẵng - Quảng Ngãi với tuyến đường Trì Bình - Cảng Dung Quất và Quốc lộ 1.
-* **Tổng mức đầu tư:** Khoảng **100 tỷ đồng** (trong đó chi phí xây lắp khoảng 50 tỷ đồng).
-* **Thời gian tái khởi động:** Cuối tháng 5-2025 (sau nhiều năm tạm dừng do vướng mắc kỹ thuật và thủ tục).
-* **Đơn vị quản lý vận hành:** Công ty TNHH MTV Khai thác vận hành đường cao tốc Miền Trung.
-* **Hình thức thu phí:** Thu phí không dừng (ETC) theo cự ly và nhóm phương tiện do Tổng công ty Đầu tư phát triển đường cao tốc Việt Nam (VEC) ban hành.
-
---- 
-
-### 🛣️ HÀNH TRÌNH 8 NĂM VÀ SỰ HỒI SINH NGOẠN MỤC
-
-Mặc dù tuyến cao tốc chính Đà Nẵng - Quảng Ngãi đã được đưa vào khai thác từ năm **2018**, tuy nhiên nút giao Trì Bình - Dung Quất vẫn chịu cảnh "đắp chiếu" do các vướng mắc kéo dài. 
-
-Đến cuối tháng 5-2025, dự án được tái khởi động toàn diện. Với sự nỗ lực vượt bậc của nhà thầu và Ban Quản lý dự án, toàn bộ các hạng mục bao gồm:
-* Cầu vượt nút giao;
-* Thảm nhựa toàn tuyến nhánh;
-* Hệ thống dải phân cách, chiếu sáng, biển báo an toàn giao thông;
-* Trạm thu phí Dung Quất tích hợp hệ thống ETC;
-
-Đều đã hoàn thành đồng bộ, đủ điều kiện đưa vào vận hành an toàn từ ngày hôm nay.
+### 🚗 PHƯƠNG ÁN VẬN HÀNH & THU PHÍ
+* **Đơn vị vận hành:** Công ty TNHH MTV Khai thác vận hành đường cao tốc Miền Trung.
+* **Hình thức thu phí:** Áp dụng hệ thống thu phí không dừng (ETC) tại lối ra vào nút giao.
+* **Mức phí:** Thu theo cự ly, nhóm phương tiện và phương thức do Tổng công ty Đầu tư phát triển đường cao tốc Việt Nam (VEC) ban hành.
 
 --- 
 
-### 💡 VAI TRÒ CHIẾN LƯỢC ĐỐI VỚI KINH TẾ & BẤT ĐỘNG SẢN
+### BẢNG ĐỐI CHIẾU TRƯỚC VÀ SAU KHI THÔNG XE NÚT GIAO
 
-1. **Cửa ngõ mới cho KKT Dung Quất:** Rút ngắn đáng kể thời gian di chuyển từ Đà Nẵng, Quảng Nam và các vùng lân cận trực tiếp vào trung tâm công nghiệp, lọc hóa dầu Dung Quất.
-2. **Giảm tải cho Quốc lộ 1:** Chia sẻ áp lực giao thông cực lớn trên tuyến Quốc lộ 1 đoạn qua huyện Bình Sơn, tỉnh Quảng Ngãi.
-3. **Đòn bẩy Logistics:** Tối ưu hóa chi phí vận chuyển hàng hóa từ cao tốc ra cảng biển nước sâu Dung Quất, tạo động lực thu hút các dòng vốn FDI lớn vào khu vực.
+| Tiêu chí | Trước ngày 01/10/2026 | Từ ngày 01/10/2026 |
+|---|---|---|
+| **Kết nối KKT Dung Quất** | Phải di chuyển vòng qua các nút giao khác, tăng thời gian và chi phí. | Kết nối trực tiếp qua nút giao Trì Bình - Dung Quất. |
+| **Áp lực lên Quốc lộ 1** | Cao, do phương tiện vận tải nặng phải đi hoàn toàn qua quốc lộ. | Giảm tải đáng kể nhờ phân lưu trực tiếp từ cao tốc. |
+| **Hệ thống thu phí** | Chưa hoạt động. | Vận hành hệ thống thu phí không dừng (ETC) đồng bộ. |
 
 --- 
 
-### 🔗 NGUỒN TRÍCH DẪN
-* *Thông tin được tổng hợp từ báo Tuổi Trẻ (Phóng viên Nguyễn Yên) và Ban Quản lý dự án đường cao tốc Đà Nẵng - Quảng Ngãi.* 
-* *Link gốc bài viết: https://tuoitre.vn/thong-xe-nut-giao-cuoi-cung-tren-cao-toc-da-nang-quang-ngai-100260930185533047.htm*
+**Nguồn thông tin:**
+* Phát biểu của ông Lê Anh Tuấn - Giám đốc Ban Quản lý dự án đường cao tốc Đà Nẵng - Quảng Ngãi.
+* Báo Tuổi Trẻ (Tác giả Nguyễn Yên, đăng tải ngày 30/09/2026): https://tuoitre.vn/thong-xe-nut-giao-cuoi-cung-tren-cao-toc-da-nang-quang-ngai-100260930185533047.htm
+
+*Thông tin mang tính tham khảo, không phải tư vấn đầu tư. Kiểm tra quy hoạch chính thức tại Ủy ban nhân dân xã/phường hoặc Sở Nông nghiệp và Môi trường trước khi giao dịch.*

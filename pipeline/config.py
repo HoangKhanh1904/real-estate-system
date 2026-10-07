@@ -21,6 +21,12 @@ GEMINI_MODEL = os.environ.get("GEMINI_MODEL", "gemini-flash-latest")
 # Nam: vi-VN-NamMinhNeural | Nữ: vi-VN-HoaiMyNeural
 TTS_VOICE = os.environ.get("TTS_VOICE", "vi-VN-NamMinhNeural")
 
+# Tốc độ đọc giọng AI:
+# "+0%": Bình thường (~2.2 từ/giây)
+# "+15%": Chuẩn video ngắn TikTok/Reels cuốn hút, dứt khoát (~2.7 từ/giây theo CLAUDE.md)
+# "+20%": Đọc nhanh, dồn dập
+TTS_RATE = os.environ.get("TTS_RATE", "+15%")
+
 # Cấu hình Telegram thông báo (tùy chọn)
 TELEGRAM_BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "")
 TELEGRAM_CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID", "")
